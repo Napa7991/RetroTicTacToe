@@ -1,0 +1,15 @@
+.gameImage{
+    height: 300px;
+    width:300px;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.head1{
+    position: absolute;
+    color:green;
+    margin-bottom:9rem;
+}
