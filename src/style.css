@@ -1,15 +1,12 @@
-.gameImage{
-    height: 300px;
-    width:300px;
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
 }
-.container{
-    height: 100vh;
+.content{
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    height: 100vh;
 }
-.head1{
-    position: absolute;
-    color:green;
-    margin-bottom:9rem;
-}
+
