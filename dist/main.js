@@ -16,7 +16,7 @@
   \*************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, `*{\r\n    margin: 0;\r\n    padding:0;\r\n    box-sizing: border-box;\r\n}\r\n.content{\r\n    display: flex;\r\n    align-items: center;\r\n    justify-content: center;\r\n    height: 100vh;\r\n}\r\n\r\n`, \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://retrotictactoe/./src/style.css?./node_modules/css-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, `*{\r\n    margin: 0;\r\n    padding:0;\r\n    box-sizing: border-box;\r\n}\r\n.content{\r\n    display: flex;\r\n    align-items: center;\r\n    justify-content: center;\r\n    height: 100vh;\r\n}\r\n.title{\r\n    position: absolute;\r\n    color:green;\r\n    margin-bottom: 15rem;\r\n    font-weight: bold;\r\n    font-size: 1.3rem;\r\n}\r\n.chooseOption{\r\n    position:absolute;\r\n    margin-bottom: 5rem;\r\n    color:green;\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: center;\r\n    flex-direction: column;\r\n}\r\n.cVp,.pVp{\r\n    cursor: pointer;\r\n    padding:0.3rem;\r\n}\r\n\r\n.chosePlayer{\r\n    position: absolute;\r\n    display: flex;\r\n    flex-direction: column;\r\n    gap:1rem;\r\n    color:green;\r\n    margin-bottom: 6rem;   \r\n}\r\ninput{\r\n    border:none;\r\n    border-radius: 0.2rem;\r\n    outline:none;\r\n    background:none;\r\n    color:green; \r\n}\r\n.startBtn{\r\n    position: absolute;\r\n    background: none;\r\n    outline: none;\r\n    border: none;\r\n    color:green;\r\n    font-size: 1.5rem;\r\n    cursor: pointer;\r\n\r\n}\r\n\r\n.inputField1:focus{\r\n    animation:blink 1s infinite;\r\n}\r\n\r\n@keyframes blink{\r\n    0%,100%{\r\n        border-color: transparent;\r\n    }\r\n    50%{\r\n        border-color: green;\r\n    }\r\n}\r\n\r\n`, \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://retrotictactoe/./src/style.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -120,6 +120,16 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 /***/ }),
 
+/***/ "./src/choosePlayer.js":
+/*!*****************************!*\
+  !*** ./src/choosePlayer.js ***!
+  \*****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nconst choosePlayer = ()=>{\r\n    const content = document.querySelector('.content');\r\n    const choosePlayerDiv = document.createElement('div');\r\n    choosePlayerDiv.classList.add('chosePlayer');\r\n\r\n    const div1 = document.createElement('div');\r\n    div1.classList.add('p1inpDiv');\r\n    const player1 = document.createElement('Label');\r\n    player1.innerText = `Player1 : `;\r\n    const inp1 = document.createElement('input');\r\n    inp1.classList.add('inputField1')\r\n    inp1.type= `text`;\r\n\r\n\r\n    \r\n    const div2 = document.createElement('div');\r\n    div1.classList.add('p2inpDiv');\r\n    const player2 = document.createElement('Label');\r\n    player2.innerText = `Player2 : `;\r\n    const inp2 = document.createElement('input');\r\n    inp2.classList.add('inputField2')\r\n    inp2.type=`text`;\r\n\r\n    const start = document.createElement('button');\r\n    start.classList.add('startBtn');\r\n    start.innerText = `Start`;\r\n\r\n\r\n\r\n    div1.appendChild(player1);\r\n    div1.appendChild(inp1);\r\n \r\n    div2.appendChild(player2);\r\n    div2.appendChild(inp2);\r\n\r\n    choosePlayerDiv.appendChild(div1);\r\n    choosePlayerDiv.appendChild(div2);\r\n\r\n    content.appendChild(choosePlayerDiv);\r\n    content.appendChild(start);\r\n\r\n    window.addEventListener('load',function(){\r\n\r\n        this.document.querySelector('.inputField1').focus();\r\n\r\n    })\r\n}\r\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (choosePlayer);\n\n//# sourceURL=webpack://retrotictactoe/./src/choosePlayer.js?");
+
+/***/ }),
+
 /***/ "./src/index.js":
 /*!**********************!*\
   !*** ./src/index.js ***!
@@ -130,13 +140,33 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _pag
 
 /***/ }),
 
+/***/ "./src/optionGame.js":
+/*!***************************!*\
+  !*** ./src/optionGame.js ***!
+  \***************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nconst optionGame = ()=>{\r\n    const content = document.querySelector('.content');\r\n    const GameOption = document.createElement('div');\r\n    GameOption.classList.add('chooseOption')\r\n    const h2 = document.createElement('h2');\r\n    h2.classList.add('cVp');\r\n    h2.innerText = `Player Vs Computer`;\r\n    const p = document.createElement('p');\r\n    p.innerText = `Or`\r\n    const h3 = document.createElement('h2');\r\n    h3.classList.add(`pVp`)\r\n    h3.innerText = `Player Vs Player`;\r\n\r\n    GameOption.appendChild(h2);\r\n    GameOption.appendChild(p);\r\n    GameOption.appendChild(h3);\r\n\r\n    content.appendChild(GameOption);\r\n    \r\n}\r\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (optionGame);\n\n//# sourceURL=webpack://retrotictactoe/./src/optionGame.js?");
+
+/***/ }),
+
 /***/ "./src/pageLoad.js":
 /*!*************************!*\
   !*** ./src/pageLoad.js ***!
   \*************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _background__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./background */ \"./src/background.js\");\n\r\nconst pageLoad = ()=>{\r\n    (0,_background__WEBPACK_IMPORTED_MODULE_0__[\"default\"])();\r\n}\r\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (pageLoad);\n\n//# sourceURL=webpack://retrotictactoe/./src/pageLoad.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _background__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./background */ \"./src/background.js\");\n/* harmony import */ var _title__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./title */ \"./src/title.js\");\n/* harmony import */ var _optionGame__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./optionGame */ \"./src/optionGame.js\");\n/* harmony import */ var _choosePlayer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./choosePlayer */ \"./src/choosePlayer.js\");\n\r\n\r\n\r\n\r\nconst pageLoad = ()=>{\r\n    (0,_title__WEBPACK_IMPORTED_MODULE_1__[\"default\"])();\r\n    // optionGame();\\\r\n    (0,_choosePlayer__WEBPACK_IMPORTED_MODULE_3__[\"default\"])();\r\n    (0,_background__WEBPACK_IMPORTED_MODULE_0__[\"default\"])();\r\n}\r\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (pageLoad);\n\n//# sourceURL=webpack://retrotictactoe/./src/pageLoad.js?");
+
+/***/ }),
+
+/***/ "./src/title.js":
+/*!**********************!*\
+  !*** ./src/title.js ***!
+  \**********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nconst title = ()=>{\r\n    const content = document.querySelector('.content');\r\n\r\n    const titleDiv = document.createElement(\"div\");\r\n    titleDiv.classList.add('title');\r\n    const h1 = document.createElement(\"h1\");\r\n    h1.innerText = `Tic-Tac-Toe`;\r\n    \r\n    titleDiv.appendChild(h1);\r\n    content.appendChild(titleDiv);\r\n}\r\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (title);\n\n//# sourceURL=webpack://retrotictactoe/./src/title.js?");
 
 /***/ }),
 
