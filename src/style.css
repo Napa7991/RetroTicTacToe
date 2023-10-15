@@ -69,3 +69,11 @@ input{
     }
 }
 
+/* for gameStart */
+.startContainer{
+    position: absolute;
+    color: green;
+    margin-bottom: 11rem;
+
+}
+
