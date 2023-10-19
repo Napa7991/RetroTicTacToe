@@ -6,8 +6,8 @@ const background = ()=>{
       // for image
      const myImage = new Image();
      myImage.src = img;
-     myImage.height= '400';
-     myImage.width = '400';
+     myImage.height= '500';
+     myImage.width = '500';
 
       content.appendChild(myImage);
 

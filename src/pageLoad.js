@@ -2,12 +2,12 @@ import background from "./background";
 import title from "./title";
 import optionGame from "./optionGame";
 import choosePlayer from "./choosePlayer";
-import gameStart from "./gameStart";
+import startGame from "./startGame";
 const pageLoad = ()=>{
     title();
-    // optionGame();\
+    // optionGame();
     // choosePlayer();
-    gameStart();
+    startGame();
     background();
 }
 export default pageLoad;

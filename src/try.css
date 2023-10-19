@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#gameboard{
+width: 300px;
+height: 300px;
+display: flex;
+flex-wrap: wrap;
+border: 2px solid red;
+
+}
+.square{
+width: 100px;
+height: 100px;
+/* background-color: yellow; */
+border: 1px solid black;
+}
+.square:nth-child(-n+3){
+    border-top: none;
+}
+.square:nth-child(3n){
+    border-right: none;
+}
+.square:nth-child(3n-2){
+    border-left: none;
+}
+.square:nth-child(n+7){
+    border-bottom: none;
+}
